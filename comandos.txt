@@ -1,0 +1,10 @@
+// Para atualicao automatica dos .js entre na pasta: 
+cd .\backend\
+// Ja na pasta digite o comando
+tsc -w
+
+
+node .\backend\dist\server
+
+// Rodar o nodemom para o servidor estar com alteraçoes feitas no codigo
+nodemon --watch backend backend/dist/server.js --port 3001
